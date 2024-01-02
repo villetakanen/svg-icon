@@ -8,9 +8,6 @@ import { customElement, property } from 'lit/decorators.js'
  */
 @customElement('svg-icon')
 export class SvgIcon extends LitElement {
-  /**
-   * Copy for the read the docs hint.
-   */
   @property({ type: String, reflect: true })
   src = ''
 
